@@ -20,22 +20,23 @@ def decoder(password):
 
 
 def main():
-      menu = """Menu
--------------
-1. Encode
-2. Decode
-3. Quit"""
+      menu = 
+    """Menu
+    -------------
+    1. Encode
+    2. Decode
+    3. Quit"""
 
     while True:
         print(menu)
         menu_option = int(input('Please enter an option: '))
 
         if menu_option == '1':
-            password = input('Please enter your password to encode: ')
+            userPass = input('Please enter your password to encode: ')
             print('Your password has been encoded and stored!')
 
         elif menu_option == '2':
-            print(f'decoded password: {decoder(password)}')
+            print(f'decoded password: {decoder(UserPass)}')
 
         elif menu_option == '3':
             break
