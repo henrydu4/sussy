@@ -1,3 +1,5 @@
+""""Authors: John DuFour, Cannon Whitney"""
+
 
 def method8(data):
     index = data.find(":")
