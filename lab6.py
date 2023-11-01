@@ -17,6 +17,8 @@ def decoder(password):
     for i in str(password):
         decoded_password += str(int(i) -3)
 
+    return decoded_password
+
 
 def main():
       menu = 
