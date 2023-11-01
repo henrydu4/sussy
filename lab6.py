@@ -21,8 +21,7 @@ def decoder(password):
 
 
 def main():
-      menu = 
-    """Menu
+    menu = """Menu
     -------------
     1. Encode
     2. Decode
@@ -32,14 +31,14 @@ def main():
         print(menu)
         menu_option = int(input('Please enter an option: '))
 
-        if menu_option == '1':
+        if menu_option == 1:
             userPass = input('Please enter your password to encode: ')
             print('Your password has been encoded and stored!')
 
-        elif menu_option == '2':
-            print(f'decoded password: {decoder(UserPass)}')
+        elif menu_option == 2:
+            print(f'decoded password: {decoder(userPass)}')
 
-        elif menu_option == '3':
+        elif menu_option == 3:
             break
 
 
