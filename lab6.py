@@ -8,10 +8,14 @@ def method8(data):
 def encoder(password):
     for i in password:
         i = int(i) + 3
-        nPass = str(i)
+        nPass += str(i)
 
 def decoder(password):
-  cannon
+    nPass = ""
+    for i in password:
+        i = int(i) - 3
+        nPass += str(i)
+    return nPass
 
 
 
@@ -24,7 +28,7 @@ def main():
 
     while True:
         print(menu)
-        menu_option = input('Please enter an option: ')
+        menu_option = int(input('Please enter an option: '))
 
         if menu_option == '1':
             password = input('Please enter your password to encode: ')
